@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8"/>
+
 		<title>Data-Design-Okayplayer</title>
 	</head>
 	<body>
@@ -9,24 +10,30 @@
 		<!-- begin persona -->
 
 		<!-- this is the header -->
-		<header>
-			<h1>Persona</h1>
-		</header>
+		<h2>Persona</h2>
 
-		<!-- this is the description of persona -->
+		<!-- this is the main page content -->
 		<main>
 
-
-
-			<!-- begin description -->
+			<!-- begin description of persona -->
 			<section>
-				<img src="img/images.jpeg" alt="images">
-				<p>When I look at Okayplayer.com I imagine a multigenerationalist who has a hunger for various musical and entertainment types. I imagine someone who likes to feed their senses with news feeds, audio and videos. I imagine someone who has an opinion and is reactive to what is digested. This person is a professional who uses a variety of mediums of technology. This busy professional keeps their cool in all stressful situations and likes to use the site to keep up with the latest our site has to offer.</p>
+			<img src="img/images.jpeg" alt="images"/>
+				<ul>
+					<li>Name: Ocupada Amiga </li>
+					<li>Age: 50</li>
+					<li>Profession: Busy professional who is the CEO of a fortune 500 company. She has an unsatiable hunger for information in regards to her favorite thing outside of her professional life, music. She has a reputation for traveling the globe to attend concerts.</li>
+					<li>Technology: Primarily an iPhone user. Also uses other apple products. </li>
+					<li>Attitudes and Behaviors: She is very busy.</li>
+				</ul>
 			</section>
 
 			<!-- begin needs, goals and features -->
+
+		<!-- this is the header -->
+		<h2>Needs, Goals And Features</h2>
+
+		<!-- begin description of needs, goals and features -->
 			<section>
-				<h2>Needs, Goals And Features</h2>
 				<ul>
 					<li>Have highlighted features standout</li>
 					<li>Lots of information in a short period of time</li>
@@ -41,16 +48,65 @@
 			<!-- begin use case -->
 
 			<!-- this is the header -->
-		<header>
 			<h2>Use Case</h2>
-		</header>
 
-			<!-- this is the description of use case -->
+		<!-- begin description of use case -->
 			<section>
-				<p>Our use case is a busy person who, when is not on the go, is busy at work. Our u.c. can utilize our site any time of day, anywhere in the world, on any device they have access to. Our Persona is going to utilize our site to keep up with their favorit artists and remain conscious to the world outside of entertainment all at the same time. The Persona is going to use our site to find out what their purchase spectrum looks like.</p>
+				<p>Ocupada has a free moment and accesses our site via her iPhone. She scrolls and scans the page for posts that interest her. Once she locates a post of interest she selects the post. She has the option of leaving a comment. She has the option of being linked to related posts.</p>
+			</section>
+
+			<!-- begin interaction flow -->
+
+			<!-- this is the header -->
+			<h2>Interaction Flow</h2>
+
+			<!-- begin description of interaction flow -->
+			<section>
+				<ul>
+					<li>The user gets a free moment</li>
+					<li>The user utilizes her phone to access our site</li>
+					<li>The user scans page using finger gestures</li>
+					<li>The user selects posts that catches her eye</li>
+					<li>The user leaves a comment</li>
+				</ul>
+			</section>
+
+			<!-- begin entities -->
+
+			<!-- this is the header -->
+			<h2>Entities</h2>
+
+			<!-- begin description of entities -->
+			<section>
+				<ul>
+					<li>Post</li>
+					<li>Author</li>
+					<li>User</li>
+				</ul>
+			</section>
+
+			<!-- begin conceptual model -->
+
+			<!-- this is the header -->
+			<h2>Conceptual Model</h2>
+
+			<!-- begin description of conceptual model -->
+			<section>
+				<ul>
+					<h3>Post</h3>
+						<li>postDateTime</li>
+						<li>postAuthor</li>
+						<li>postTitle</li>
+						<li>postContent</li>
+					<h3>Author</h3>
+						<li>authorId</li>
+						<li>authorName</li>
+					<h3>User</h3>
+						<li>userId</li>
+						<li>userName</li>
+						<li>userComment</li>
+				</ul>
 			</section>
 		</main>
 	</body>
-
-
 </html>
