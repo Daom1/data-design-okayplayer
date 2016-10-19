@@ -80,8 +80,8 @@
 			<section>
 				<ul>
 					<li>Post</li>
-					<li>Author</li>
-					<li>User</li>
+					<li>Profile</li>
+					<li>Comment</li>
 				</ul>
 			</section>
 
@@ -98,13 +98,17 @@
 						<li>postAuthor</li>
 						<li>postTitle</li>
 						<li>postContent</li>
-					<h3>Author</h3>
-						<li>authorId</li>
-						<li>authorName</li>
-					<h3>User</h3>
-						<li>userId</li>
-						<li>userName</li>
-						<li>userComment</li>
+						<li>postId (primary key)</li>
+					<h3>Profile</h3>
+						<li>profileId (primary key)</li>
+						<li>profileName</li>
+						<li>profileEmail</li>
+					<h3>Comment</h3>
+						<li>commentId (primary key)</li>
+						<li>commentProfileId (primary key)</li>
+						<li>commentPostId (foreign key)</li>
+						<li>commentContent</li>
+						<li>commentDateTime</li>
 				</ul>
 			</section>
 		</main>
