@@ -92,18 +92,22 @@
 
 			<!-- begin description of conceptual model -->
 			<section>
+				<h3>Post</h3>
 				<ul>
-					<h3>Post</h3>
-						<li>postDateTime</li>
+					<li>postDateTime</li>
 						<li>postAuthor</li>
 						<li>postTitle</li>
 						<li>postContent</li>
 						<li>postId (primary key)</li>
+					</ul>
 					<h3>Profile</h3>
+				<ul>
 						<li>profileId (primary key)</li>
 						<li>profileName</li>
 						<li>profileEmail</li>
+				</ul>
 					<h3>Comment</h3>
+				<ul>
 						<li>commentId (primary key)</li>
 						<li>commentProfileId (primary key)</li>
 						<li>commentPostId (foreign key)</li>
